@@ -4,7 +4,7 @@ var Pet = function Pet(species, speciesImg, gender) {
   var name = arguments[4] !== (void 0) ? arguments[4] : 'PET-' + Math.floor(Math.random() * 1000);
   this.name = name;
   this.species = species;
-  this.speciesImg = ("../media/" + speciesImg);
+  this.speciesImg = ("../../media/" + speciesImg);
   this.gender = gender;
   this.age = age * 1;
   this.health = _.random(10, 100);

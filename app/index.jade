@@ -1,0 +1,36 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Pet Sitter
+    link(rel='stylesheet', href='./css/app.css')
+  body
+    header
+      h1 Legendary Sitter
+    #container
+      #controls
+        input#name(type='text', placeholder='Name')
+        input#age(type='text', placeholder='Age')
+
+        select#species
+          option(value='kraken.jpg') Kraken
+          option(value='chimera.jpg') Chimera
+          option(value='minotaur.jpg') Minotaur
+          option(value='cyclops.jpg') Cyclops
+
+        select#gender
+          option Male
+          option Female
+
+        button#add Add Pet
+
+      #pets
+
+    script(src='./js/vendor/traceur.js')
+    script(src='./js/vendor/experimental.js')
+    script(src='./js/vendor/jquery-2.1.0.js')
+    script(src='./js/vendor/lodash-2.4.1.js')
+    script(src='./js/vendor/moment-2.6.0.js')
+    script(src='./js/es6/database.js')
+    script(src='./js/es6/pet.js')
+    script(src='./js/es6/main.js')

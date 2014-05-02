@@ -137,10 +137,7 @@ header h1 {
 .stats .health-wrapper .nutrition-bar,
 .stats .health-wrapper .happiness-bar {
   background-color: #63d74c;
-  -webkit-transition: all ease-out 0.4s;
-  -moz-transition: all ease-out 0.4s;
-  -o-transition: all ease-out 0.4s;
-  transition: all ease-out 0.4s;
+
 }
 .stats .health-wrapper .health-bar p,
 .stats .health-wrapper .nutrition-bar p,

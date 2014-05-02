@@ -5,7 +5,7 @@ class Pet{
   constructor(species, speciesImg, gender, age=Math.floor(Math.random()*100), name='PET-'+Math.floor(Math.random()*1000)){
     this.name = name;
     this.species = species;
-    this.speciesImg = `../../media/${speciesImg}`;
+    this.speciesImg = `./media/${speciesImg}`;
     this.gender = gender;
     this.age = age * 1;
 

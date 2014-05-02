@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
+  background: url(../media/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#container {
+  width: 90%;
+  margin: 0 auto;
+}
+header {
+  background-color: #333;
+  color: #eee;
+  padding: 10px 0;
+  margin-bottom: 15px;
+  font-family: 'Cinzel', serif;
+}
+header h1 {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+#pets {
+  margin-top: 20px;
+}
+.pet {
+  padding: 5px;
+  border: 1px solid #b4b3b3;
+  display: inline-block;
+  background-color: #eee;
+  margin: 0 5px 5px 0;
+  -webkit-transition: all ease-out 3s;
+  -moz-transition: all ease-out 3s;
+  -o-transition: all ease-out 3s;
+  transition: all ease-out 3s;
+}
+.visually-hidden {
+  opacity: 0;
+}
+.hidden {
+  display: none;
+}
+.image {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+}
+.image,
+.health-wrapper {
+  -webkit-transition: all ease-out 2s;
+  -moz-transition: all ease-out 2s;
+  -o-transition: all ease-out 2s;
+  transition: all ease-out 2s;
+}
+.image-dead {
+  box-shadow: inset 4px 4px 1px #300000,
+   inset 4px 6px 1px #400000,
+   inset 4px 8px 1px #500000,
+   inset 4px 10px 1px #600000,
+   inset 4px 20px 1px #700000,
+   inset 4px 30px 1px #800000,
+   inset 4px 40px 1px #900000,
+   inset 4px 50px 1px #A00000,
+   inset 4px 60px 1px #B00000,
+   inset 4px 70px 1px #C00000,
+   inset 4px 80px 1px #D00000,
+   inset 4px 90px 1px #E00000,
+   inset 4px 100px 1px #F00000,
+   inset 4px 110px 1px #FA0000,
+   inset 4px 120px 1px #FB0000,
+   inset 4px 130px 1px #FC0000,
+   inset 4px 140px 1px #FD0000,
+   inset 4px 150px 1px #FE0000,
+   inset 4px 200px 2px #FF0000;
+}
+.bar-dead {
+  box-shadow: inset 4px 4px 1px #300000,
+   inset 4px 6px 1px #400000,
+   inset 4px 8px 1px #500000,
+   inset 4px 10px 1px #600000,
+   inset 4px 12px 1px #700000,
+   inset 4px 14px 1px #800000,
+   inset 4px 16px 1px #900000,
+   inset 4px 18px 1px #A00000,
+   inset 4px 20px 1px #B00000,
+   inset 4px 22px 1px #C00000,
+   inset 4px 24px 1px #D00000,
+   inset 4px 26px 1px #E00000,
+   inset 4px 28px 1px #F00000,
+   inset 4px 30px 1px #FA0000,
+   inset 4px 32px 1px #FB0000,
+   inset 4px 34px 1px #FC0000,
+   inset 4px 36px 1px #FD0000,
+   inset 4px 38px 1px #FE0000,
+   inset 4px 40px 2px #FF0000;
+  text-shadow: 0px 0px 2px #000;
+}
+.stats {
+  padding: 5px;
+  font-size: 12px;
+  background-color: #333;
+  color: #fff;
+  line-height: 1.5;
+}
+.stats span {
+  font-weight: 700;
+}
+.stats hr {
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999;
+}
+.stats img {
+  margin: 5px;
+  width: 25%;
+  height: auto;
+}
+.stats button {
+  width: 32%;
+}
+.stats img:hover {
+  opacity: 0.6;
+}
+.stats .health-wrapper {
+  background-color: #5e5e5e;
+  border: 1px solid #111;
+  padding: 1px;
+  margin: 5px 0;
+}
+.stats .health-wrapper .health-bar,
+.stats .health-wrapper .nutrition-bar,
+.stats .health-wrapper .happiness-bar {
+  background-color: #63d74c;
+  -webkit-transition: all ease-out 0.4s;
+  -moz-transition: all ease-out 0.4s;
+  -o-transition: all ease-out 0.4s;
+  transition: all ease-out 0.4s;
+}
+.stats .health-wrapper .health-bar p,
+.stats .health-wrapper .nutrition-bar p,
+.stats .health-wrapper .happiness-bar p {
+  padding-left: 5px;
+  margin: 0;
+}
